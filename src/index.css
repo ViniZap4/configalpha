@@ -1,0 +1,90 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  transition: 0.6s;
+}
+@font-face {
+  font-family: 'fira code';
+  src: url(./font/FiraCode/otf/FiraCode-Light.otf)
+}
+
+body {
+  margin: 0;
+  font-family: 'fira code',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::selection{
+  background-color: #000;
+  color: #fff;
+  text-shadow: 0px 0px 9px #fff;
+}
+
+h1{font-size: 6vh;}
+h2{font-size: 3.6vh;}
+h3{font-size: 2.7vh;}
+span,p,input,textarea,h5{
+  font-size: 2.7vh;
+  font-family: 'fira code';
+  color:#000;
+}
+a{  
+  font-size: 2.7vh;
+  font-family: 'fira code';
+  color:#000;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+
+textarea:focus,
+input:focus,
+select:focus {
+  border-color: none ;
+  outline: 0;
+  -webkit-box-shadow: none ;
+  box-shadow: none ;
+}
+
+::-webkit-scrollbar              {
+  background-color: rgba(255, 255, 255, 0);
+  max-width: 0.6vw;
+  max-height: 0.6vh;
+}
+::-webkit-scrollbar-button       {
+  background-color: transparent;
+}
+::-webkit-scrollbar-track        {
+  background-color: transparent;
+}
+::-webkit-scrollbar-track-piece  {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb        {
+  background-color: rgba(19, 19, 19, 0.466);
+  border-radius: 14px;
+  
+}
+::-webkit-scrollbar-corner       {
+  background-color: transparent;
+}
+::-webkit-resizer                {
+  background-color: transparent;
+}
+
+.button_invisible{
+  opacity: 0;
+  width: 0%;
+  margin: 0%;
+}

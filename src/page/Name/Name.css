@@ -1,0 +1,49 @@
+#Name_page{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  
+  width: 100vw;
+  min-height: 100vh;
+  animation: init_Name_message 1s linear;
+}
+
+.init_Name_message{
+  display: flex;
+  align-self: center;
+  margin: auto;  
+
+  justify-items: center;
+  align-items: center;
+
+  padding: 2.1vh;
+  border-radius: 9px;
+  box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.801);
+  
+  background-color: rgb(238, 238, 238);
+ 
+}
+
+@keyframes init_Name_message{
+  from{
+    opacity: 0;
+    position: fixed;
+    left: -100vw;
+  }to{
+    position: fixed;
+    left: 0vw;
+    opacity: 1;
+  }
+}
+.init_Name_message span{
+  font-size: 6.3vh;
+}
+
+.input_name{
+  margin: 0vh 2vh;
+  border:none;
+  font-size: 6.3vh;
+  max-width: 20vw;
+  width: max-content;
+  background-color: transparent;
+  font-size: 6.3vh;
+}

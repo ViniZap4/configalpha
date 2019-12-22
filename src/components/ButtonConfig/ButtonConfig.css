@@ -1,0 +1,70 @@
+.button_config_teme{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  position: fixed;
+  right: 0.9vw;
+  top:6.3vh;
+
+  width:  5.4vh;
+  max-width: 60px;
+  height: 5.4vh;
+  max-height: 60px;
+  
+  padding: 0.6vh;
+  border-radius: 6.3px;
+  box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.918);
+  opacity: 0.9;
+
+  cursor: pointer;
+  z-index: 5;
+}
+
+.button_config_teme:hover{
+  transform: scale(1.05);
+  opacity: 1;
+  box-shadow: 6px 12px 27px rgba(0, 0, 0, 0.918);
+
+}
+
+.img_button_config_teme{
+  width:  5.4vh;
+  max-width: 60px;
+  height: 5.4vh;
+  max-height: 60px;
+}
+
+.content_config_temes{
+  position: fixed;
+  width: 63vw;
+  height: 90vh;
+  right: 9vw;
+  top:3vh;
+  animation: init_content_config_temes 0.6s linear;
+  
+}
+.content_config_temes_Close{
+  position: fixed;
+  width: 63vw;
+  height: 90vh;
+  right: -100vw;
+  top:3vh;
+  animation: close_content_config_temes 0.6s linear;
+}
+@keyframes init_content_config_temes{
+  from{
+    right: -100vw;
+  }to{
+    right: 9vw;
+
+  }
+}
+@keyframes close_content_config_temes{
+  from{
+    right: 9vw;
+  }to{
+    right: -100vw;
+
+  }
+}

@@ -1,0 +1,8 @@
+#home_page{
+  display: flex;
+
+  background-size: cover;
+
+  width: 100vw;
+  min-height: 100vh;
+}

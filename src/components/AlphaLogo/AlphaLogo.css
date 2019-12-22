@@ -1,0 +1,20 @@
+.box_alpha_logo{
+  position: absolute;
+  top: 0.9vh;
+  left:0.9vw;
+  padding:0.63vh;
+  opacity: 0.63;
+}
+.Alpha_logo{
+  width:  9vh;
+  height: 9vh;
+  animation: logo_rotate 20s linear infinite;
+}
+
+@keyframes logo_rotate {
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+}
